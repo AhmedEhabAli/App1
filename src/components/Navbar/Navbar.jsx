@@ -19,10 +19,10 @@ export default function Navbar() {
           <ul className="navbar-nav ms-auto text-uppercase">
             <li className="nav-item">
               <Link
-                to="/about"
-                onClick={() => setActiveItem("/about")}
+                to="about"
+                onClick={() => setActiveItem("about")}
                 className={`nav-link text-white fw-bold me-3 rounded-3 ${
-                  activeItem === "/about" ? "active" : ""
+                  activeItem === "about" ? "active" : ""
                 }`}
               >
                 About
@@ -31,10 +31,10 @@ export default function Navbar() {
 
             <li className="nav-item">
               <Link
-                to="/portfolio"
-                onClick={() => setActiveItem("/portfolio")}
+                to="portfolio"
+                onClick={() => setActiveItem("portfolio")}
                 className={`nav-link text-white fw-bold me-3 rounded-3 ${
-                  activeItem === "/portfolio" ? "active" : ""
+                  activeItem === "portfolio" ? "active" : ""
                 }`}
               >
                 Portfolio
@@ -43,10 +43,10 @@ export default function Navbar() {
 
             <li className="nav-item">
               <Link
-                to="/contact"
-                onClick={() => setActiveItem("/contact")}
+                to="contact"
+                onClick={() => setActiveItem("contact")}
                 className={`nav-link text-white fw-bold me-3 rounded-3 ${
-                  activeItem === "/contact" ? "active" : ""
+                  activeItem === "contact" ? "active" : ""
                 }`}
               >
                 Contact
